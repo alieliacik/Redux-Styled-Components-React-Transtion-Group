@@ -7,8 +7,8 @@ const ColorContainer = styled.div`
   justify-content: space-around;
   align-items: center;
   background-color: ${props => props.color};
-  width: 130px;
-  height: 130px;
+  width: 110px;
+  height: 110px;
   margin: 3px;
   border: ${props => props.selected && "7px solid #2c3e50"};
   border-radius: 8px;
