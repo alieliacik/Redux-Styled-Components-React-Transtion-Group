@@ -18,7 +18,7 @@ const Container = styled.div`
     opacity: 0;
   }
   @media (max-width: 768px) {
-    flew-wrap: nowrap;
+    flex-wrap: nowrap;
   }
 `
 
