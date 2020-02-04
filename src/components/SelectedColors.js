@@ -17,7 +17,7 @@ const Container = styled.div`
     transition: all 0.4s ease;
     opacity: 0;
   }
-  @media (max-width: 768px) {
+  @media (max-width: 959px) {
     flex-wrap: nowrap;
   }
 `
