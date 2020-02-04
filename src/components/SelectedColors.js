@@ -17,23 +17,19 @@ const Container = styled.div`
     transition: all 0.4s ease;
     opacity: 0;
   }
-  @media (max-width: 959px) {
-    flex-wrap: nowrap;
-  }
 `
 
 const SelectedColors = props => {
   const colors = useSelector(state => state.colors)
-
-  const checkSelected = () => {
-    return colors.some(clr => clr.selected)
-  }
 
   let selectedColor = (
     <Container>
       <h3>Please select a color...</h3>
     </Container>
   )
+  const checkSelected = () => {
+    return colors.some(clr => clr.selected)
+  }
   if (checkSelected()) {
     selectedColor = (
       <TransitionGroup component={Container}>
