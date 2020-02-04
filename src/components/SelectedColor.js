@@ -3,13 +3,13 @@ import styled from "styled-components"
 import { useDispatch } from "react-redux"
 
 const ColorContainer = styled.div`
-  display: flex;
+  display: grid;
   justify-content: space-around;
   align-items: center;
   background-color: ${props => props.color};
   width: 130px;
   height: 130px;
-  margin: 0.5%;
+  margin: 3px;
   border: ${props => props.selected && "7px solid #2c3e50"};
   border-radius: 8px;
   box-sizing: border-box;
@@ -29,8 +29,8 @@ const ColorContainer = styled.div`
   & > p {
     font-size: 0.8rem;
   }
-  @media (max-width: 768px) {
-    width: 32%;
+  @media (max-width: 959px) {
+    width: 100%;
     height: 110px;
   }
 `
