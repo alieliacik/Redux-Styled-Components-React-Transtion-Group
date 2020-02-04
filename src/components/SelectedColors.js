@@ -17,6 +17,9 @@ const Container = styled.div`
     transition: all 0.4s ease;
     opacity: 0;
   }
+ @media (max-width: 768px) {
+    flew-wrap: nowrap;
+  }
 `
 
 const SelectedColors = props => {
