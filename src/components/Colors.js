@@ -6,7 +6,7 @@ import Color from "./Color"
 const Container = styled.div`
   display: flex;
   flex-wrap: wrap;
-  width: 95%;
+  width: 94%;
   margin: 15px auto;
   box-shadow: 2px 2px 12px grey;
  @media (max-width: 768px) {
