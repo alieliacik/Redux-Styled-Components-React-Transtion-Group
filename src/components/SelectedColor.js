@@ -9,7 +9,7 @@ const ColorContainer = styled.div`
   background-color: ${props => props.color};
   width: 130px;
   height: 130px;
-  margin: 3px;
+  margin: 0.5%;
   border: ${props => props.selected && "7px solid #2c3e50"};
   border-radius: 8px;
   box-sizing: border-box;
