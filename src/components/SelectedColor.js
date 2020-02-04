@@ -27,10 +27,10 @@ const ColorContainer = styled.div`
       font-size: 0.9rem;
       font-weight: bold;
     }
-@media (max-width: 768px) {
+  }
+  @media (max-width: 768px) {
     width: 32%;
     height: 110px;
-  }
   }
 `
 
