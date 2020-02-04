@@ -9,7 +9,7 @@ const ColorContainer = styled.div`
   background-color: ${props => props.color};
   width: 110px;
   height: 110px;
-  margin: 3px;
+  margin: 0.5%;
   border: ${props => props.selected && "7px solid #2c3e50"};
   border-radius: 8px;
   box-sizing: border-box;
@@ -28,7 +28,7 @@ const ColorContainer = styled.div`
     font-weight: bold;
   }
 @media (max-width: 768px) {
-    width: 32.4%;
+    width: 31%;
     height: 110px;
   }
 `
