@@ -28,7 +28,7 @@ const ColorContainer = styled.div`
     font-weight: bold;
   }
 @media (max-width: 768px) {
-    width: 31%;
+    width: 32%;
     height: 110px;
   }
 `
