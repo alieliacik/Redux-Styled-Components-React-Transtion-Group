@@ -3,7 +3,7 @@ import styled from "styled-components"
 import { useDispatch } from "react-redux"
 
 const ColorContainer = styled.div`
-  display: flex;
+  display: grid;
   justify-content: space-around;
   align-items: center;
   background-color: ${props => props.color};
@@ -31,8 +31,8 @@ const ColorContainer = styled.div`
   & > p {
     font-size: 0.8rem;
   }
-  @media (max-width: 768px) {
-    width: 32%;
+  @media (max-width: 959px) {
+    width: 100%;
     height: 110px;
   }
 `
