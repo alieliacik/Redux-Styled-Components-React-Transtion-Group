@@ -11,7 +11,10 @@ const Container = styled.div`
   box-shadow: 2px 2px 12px grey;
 
   @media (max-width: 959px) {
-    flex-wrap: nowrap;
+    padding: 3px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
   }
 `
 
