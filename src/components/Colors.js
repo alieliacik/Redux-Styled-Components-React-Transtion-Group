@@ -10,7 +10,7 @@ const Container = styled.div`
   margin: 15px auto;
   box-shadow: 2px 2px 12px grey;
 
-  @media (max-width: 768px) {
+  @media (max-width: 959px) {
     flex-wrap: nowrap;
   }
 `
