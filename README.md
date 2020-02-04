@@ -9,7 +9,6 @@
 
 <hr/> 
 
-<br/>
 
 <strong>Styled components very easy to use. I combined it with React Transition Group. Whit this combo, I could animate the Color and SelectedColor components right before they unmounted. </strong>
 
@@ -19,7 +18,6 @@
 
 <hr/> 
 
-<br/>
 
 <strong>I took help from 'some' function when I showed the user whether the color is selected or not. </strong>
 
@@ -27,8 +25,6 @@
 
 
 <br/>
-
-<hr/> 
 
 <br/>
 
