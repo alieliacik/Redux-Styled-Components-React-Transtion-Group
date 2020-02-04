@@ -7,7 +7,7 @@ import { TransitionGroup, CSSTransition } from "react-transition-group"
 const Container = styled.div`
   display: flex;
   flex-wrap: wrap;
-  width: 94%;
+  width: 95%;
   margin: 15px auto;
   box-shadow: 2px 2px 12px grey;
   & > h3 {
@@ -17,7 +17,7 @@ const Container = styled.div`
     transition: all 0.4s ease;
     opacity: 0;
   }
- @media (max-width: 768px) {
+  @media (max-width: 768px) {
     flew-wrap: nowrap;
   }
 `
