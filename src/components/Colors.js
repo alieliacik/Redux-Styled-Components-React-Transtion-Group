@@ -9,6 +9,9 @@ const Container = styled.div`
   width: 95%;
   margin: 15px auto;
   box-shadow: 2px 2px 12px grey;
+ @media (max-width: 768px) {
+    flew-wrap: nowrap;
+  }
 `
 
 const Colors = () => {
