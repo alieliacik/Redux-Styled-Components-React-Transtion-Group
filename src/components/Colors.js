@@ -11,7 +11,7 @@ const Container = styled.div`
   box-shadow: 2px 2px 12px grey;
 
   @media (max-width: 768px) {
-    flew-wrap: nowrap;
+    flex-wrap: nowrap;
   }
 `
 
