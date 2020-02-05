@@ -1,3 +1,4 @@
+
 const initialState = {
   colors: [
     { id: 0, name: "ASBESTOS", color: "#7f8c8d", selected: false },
@@ -40,18 +41,13 @@ const reducer = (state = initialState, action) => {
         colors: toggledColors
       }
     case "UNSELECT":
-      const unselectedColors = state.colors.map((clr, _, array) => {
-        if (clr.id === action.id) {
-          const updatedColor = {
-            ...clr,
-            selected: false
-          }
-          return updatedColor
-        } else return clr
-      })
+      const cloneColorsArray = [...state.colors]
+      const cloneColorObject = { ...cloneColorsArray[action.id] }
+      cloneColorObject.selected = false
+      cloneColorsArray[action.id] = cloneColorObject
       return {
         ...state,
-        colors: unselectedColors
+        colors: cloneColorsArray
       }
     default:
       return state
