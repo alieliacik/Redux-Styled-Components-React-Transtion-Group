@@ -9,6 +9,13 @@
 
 <hr/> 
 
+<strong>You can see the big initialState that I controlled whole colours and two different approaches of immutable state update.</strong>
+
+![immutable](https://user-images.githubusercontent.com/57728302/73808315-736a3800-479d-11ea-85ab-01270e238976.JPG)
+
+<br/>
+
+<hr/> 
 
 <strong>Styled components very easy to use. I combined it with React Transition Group. Whit this combo, I could animate the Color and SelectedColor components right before they unmounted. </strong>
 
