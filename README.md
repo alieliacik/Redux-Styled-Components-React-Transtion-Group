@@ -35,5 +35,5 @@
 
 <br/>
 
-<h4>Used Technologies: React Hooks, React Router, Redux, Styled Components, React Transition Group, HTMl5, CSS3 (Flexbox, Grid CSS) </h4>
+<h4>Used Technologies: React Hooks, React Router, Redux, Styled Components, React Transition Group, HTML5, CSS3 (Flexbox, Grid CSS) </h4>
 <h3>Netlify Link: https://adoring-neumann-63d84b.netlify.com/</h3>
