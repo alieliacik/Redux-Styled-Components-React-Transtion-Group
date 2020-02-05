@@ -9,7 +9,7 @@
 
 <hr/> 
 
-<strong>You can see the big initialState that I controlled whole colours and two different approaches of immutable state update.</strong>
+<strong>Two different approaches of immutable state update and you can see the big initialState that I controlled whole colors.</strong>
 
 ![immutable](https://user-images.githubusercontent.com/57728302/73808315-736a3800-479d-11ea-85ab-01270e238976.JPG)
 
