@@ -13,6 +13,17 @@
 
 ![immutable](https://user-images.githubusercontent.com/57728302/73808315-736a3800-479d-11ea-85ab-01270e238976.JPG)
 
+
+<br/>
+
+<hr/> 
+
+<strong>Creating GlobalStyle and applying it to the project. </strong>
+
+![styled-components-global-state](https://user-images.githubusercontent.com/57728302/74286133-1d454980-4cf5-11ea-941a-239600d30ece.JPG)
+
+
+
 <br/>
 
 <hr/> 
