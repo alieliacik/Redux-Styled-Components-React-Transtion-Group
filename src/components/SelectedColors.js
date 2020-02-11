@@ -9,6 +9,7 @@ const Container = styled.div`
   flex-wrap: wrap;
   width: 96%;
   margin: 15px auto;
+  padding: 10px 0px;
   box-shadow: 2px 2px 12px grey;
   & > h3 {
     margin-left: 20px;
@@ -27,9 +28,8 @@ const SelectedColors = props => {
       <h3>Please select a color...</h3>
     </Container>
   )
-  const checkSelected = () => {
-    return colors.some(clr => clr.selected)
-  }
+  const checkSelected = () => colors.some(clr => clr.selected)
+
   if (checkSelected()) {
     selectedColor = (
       <TransitionGroup component={Container}>
