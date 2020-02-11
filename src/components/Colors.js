@@ -8,13 +8,13 @@ const Container = styled.div`
   flex-wrap: wrap;
   width: 94%;
   margin: 15px auto;
+  padding: 7px 12px 7px 7px;
   box-shadow: 2px 2px 12px grey;
 
-  @media (max-width: 959px) {
-    padding: 3px;
+  @media (max-width: 768px) {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 5px;
+    grid-gap: 10px;
   }
 `
 
