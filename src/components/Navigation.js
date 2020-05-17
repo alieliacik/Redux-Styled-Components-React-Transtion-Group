@@ -37,7 +37,7 @@ const Navigation = () => {
       <ul>
         <li>
           <StyledNavLink to='/' exact isActive={isActive.bind(this, "/")}>
-            Color Palette
+            Color Palette 
           </StyledNavLink>
         </li>
         <li>
